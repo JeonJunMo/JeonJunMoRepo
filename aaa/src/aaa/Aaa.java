@@ -1,34 +1,21 @@
 package aaa;
 
+import java.util.Scanner;
+
 public class Aaa {
 
 	public static void main(String[] args) {
-		int k;
-		// TODO Auto-generated method stub
-for(int i=7; i>0; i--){
-	for(k=0; k<i; k++){
-		System.out.printf(" ");
-		}
-		for(k=7; k>=i; k--){
-		System.out.printf("*");
-		}
-	System.out.printf("\n");
+int data;
+Scanner s= new Scanner(System.in);
+System.out.printf("정수를 입력하세요==>");
+data = s.nextInt();
+
+System.out.printf("10진수 ==>%d \n", data);
+System.out.printf("16진수 ==>%x \n", data);
+System.out.printf("8진수 ==>%o \n", data);
 	}
-for(int i=0; i<6; i++){
-	for(k=0; k<=i+1; k++){
-		System.out.printf(" ");
-		}
-		for(k=5; k>=i; k--){
-		System.out.printf("*");
-		}
-	System.out.printf("\n");
-	}
-	}
+
 }
-
-
-
-
 
 
 
